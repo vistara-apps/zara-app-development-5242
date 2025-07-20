@@ -19,5 +19,3 @@ jobs:
         context: .
         push: true
         tags: registry.vistara.dev/d1266329-8d1c-4d96-bfa7-3f17daa6cd1b:latest
-        cache-from: type=gha
-        cache-to: type=gha,mode=max
